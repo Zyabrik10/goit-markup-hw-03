@@ -1,0 +1,227 @@
+:root {
+  --dark: #2e2f42;
+  --pressed-state: #404bbf;
+  --primary-brand: #4d5ae5;
+  --hero-color: #ffffff;
+  --text: #434455;
+  --light: #f4f4fd;
+  --accent: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark);
+}
+
+/* 
+1) повтрение 
+
+*/
+
+.link {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+  border: none;
+  color: currentColor;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* <HEADER> */
+.website-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+
+  line-height: 1.333;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+}
+
+.logo-web {
+  color: var(--primary-brand);
+}
+
+.navigation-link {
+  font-size: 16px;
+  font-weight: 500;
+
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+}
+
+.navigation-link:focus,
+.navigation-link:hover {
+  color: var(--pressed-state);
+}
+
+.contact-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--text);
+}
+
+.contact-info:focus,
+.contact-info:hover {
+  color: var(--pressed-state);
+}
+/* </HEADER> */
+
+/* <SCETION HERO> */
+.hero {
+  background-color: var(--dark);
+}
+
+.hero-title {
+  font-size: 56px;
+
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--hero-color);
+}
+
+.hero-button {
+  background: var(--primary-brand);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  letter-spacing: 0.04em;
+  color: var(--hero-color);
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: var(--pressed-state);
+}
+/* </SCETION HERO> */
+
+/* <BENEITS SECTION> */
+.benefits-item-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.benefits-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+/* </BENEITS SECTION> */
+
+/* <ACTIVITY SECTION> */
+.activity-title {
+  font-size: 36px;
+
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* </ACTIVITY SECTION> */
+
+/* <OUT TEAM SECTION> */
+.team {
+  background-color: var(--light);
+}
+
+.team-title {
+  font-size: 36px;
+
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.member-name {
+  font-weight: 500;
+  font-size: 20px;
+
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.member-occupation {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* </OUT TEAM SECTION> */
+
+/* <SOLUTIONS SECTION> */
+.sort-button {
+  background: var(--light);
+
+  border-radius: 4px;
+
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+}
+
+.sort-button:focus,
+.sort-button:hover {
+  background-color: var(--pressed-state);
+  color: #fff;
+}
+
+.solution-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.solution-class {
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+/* </SOLUTIONS SECTION> */
+
+/* <FOOTER> */
+.conclusion {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.inspire-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* </FOOTER> */
